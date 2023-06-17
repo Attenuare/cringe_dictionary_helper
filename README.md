@@ -1,5 +1,5 @@
 # f290_dsm_tp2_cringe_dictionary_helper
-
+## Desenvolvedores
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Felipe-Vieira-03"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102335240?v=4" width="100px;" alt=""/><br /><sub><b>Felipe Vieira</b></sub></a><br /><a href="https://github.com/Felipe-Vieira-03" title="BoorBook">🚀</a></td>
