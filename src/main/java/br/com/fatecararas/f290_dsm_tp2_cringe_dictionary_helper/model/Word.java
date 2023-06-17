@@ -37,11 +37,11 @@ public class Word {
         return this;
     }
 
-    public String getDescricao() {
+    public String getDescription() {
         return description;
     }
 
-    public void setDescricao(String word) {
+    public void setDescription(String word) {
         this.description = word;
     }
 
@@ -49,7 +49,7 @@ public class Word {
         return meaning;
     }
 
-    public void setSignificado(String meaning) {
+    public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
 

@@ -38,7 +38,7 @@ public class WordController {
         return "redirect:/dictionary";
     }
 
-    @GetMapping("/excluir/{id}")
+    @GetMapping("/delete/{id}")
     public String delete(@PathVariable("id") Integer id) {
         service.delete(id);
         return "redirect:/dictionary";

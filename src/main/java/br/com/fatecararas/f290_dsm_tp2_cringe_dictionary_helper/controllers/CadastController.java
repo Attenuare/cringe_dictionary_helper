@@ -21,13 +21,13 @@ public class CadastController {
     }
 
     @PostMapping("/cadastrate")
-    public String cadastrar(@ModelAttribute("word") Word word) {
+    public String cadastrate(@ModelAttribute("word") Word word) {
         System.out.println(word);
         service.cadastration(word);
         return "redirect:/dictionary";
     }
 
-    @GetMapping("/editar/{id}")
+    @GetMapping("/edit/{id}")
     public String editar(@PathVariable("id") Integer id, Model model) {
         Word word = service.searchAll(id);
         model.addAttribute("word", word);

@@ -16,20 +16,16 @@
     </header>
     <main class="container-fluid">
         <hr>
-        <a href="/dicionario">Voltar</a>
-        <form th:action="@{/cadastro/cadastrar}" method="post" th:object="${palavra}" class="mt-4">
+        <a href="/dictionary">Voltar</a>
+        <form th:action="@{/cadastration/cadastrate}" method="post" th:object="${word}" class="mt-4">
             <div class="row">
-                <div class="col col-2">
-                    <input type="text" class="form-control" readonly placeholder="ID"
-                           th:field="*{id}">
-                </div>
                 <div class="col col-3">
                     <input type="text" class="form-control" placeholder="Palavra"
-                        th:field="*{descricao}" required>
+                        th:field="*{description}" required>
                 </div>
                 <div class=" col col-6">
                     <input type="text" class="form-control" placeholder="Significado"
-                        th:field="*{significado}" required>
+                        th:field="*{meaning}" required>
                 </div>
                 <div class="col-auto mb-3">
                     <button type="submit" class="btn btn-primary">Salvar</button>
